@@ -1,7 +1,7 @@
 # Личный проект «Седона»
 
 * Студент: [Вадим](https://up.htmlacademy.ru/htmlcss/36/user/2252801).
-* Наставник: `Дмитрий Гуляев`(https://htmlacademy.ru/profile/dima).
+* Наставник: [Дмитрий Гуляев](https://htmlacademy.ru/profile/dima).
 
 ---
 
