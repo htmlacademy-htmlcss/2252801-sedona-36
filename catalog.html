@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <title>HTML Academy: Седона</title>
+  </head>
+  <body>
+    <header class="page-header">
+      <nav class="navigation">
+        <ul class="navigation-list">
+          <li class="navigation-item">
+            <a class="navigation-link" href="navigation-logo">
+              <img class="page-header-logo" alt="Логотип Седоны" src="#">
+            </a>
+          </li>
+          <li class="navigation-item">
+            <a class="navigation-link" href="index.html">Главная</a>
+          </li>
+          <li class="navigation-item">
+            <a class="navigation-link" href="about.html">О седоне</a>
+          </li>
+          <li class="navigation-item"><!--Ссылка должна отображать текущее нахождение на этой странице-->
+            <a class="navigation-link" href="catalog.html">Гостиницы</a>
+          </li>
+        </ul>
+        <ul class="navigation-list navigation-user">
+          <li class="navigation-item">
+            <a class="navigation-link" href="#">Поиск</a>
+          </li>
+          <li class="navigation-item">
+            <a class="navigation-link" href="#">Избранное</a>
+          </li>
+          <li class="navigation-item">
+            <a class="navigation-link" href="#">Хочу сюда!</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <footer class="page-footer">
+      <section class="newslatter">
+          <h2 class="page-footer-title">Подпишитесь на рассылку</h2>
+          <p>Только полезная информация и никакого спама, честное бойскаутское!</p>
+        <form class="newslatter-form" action="https://echo.htmlacademy.ru/" metod="post">
+          <label for="newslatter-email"></label>
+          <input type="field" placeholder="Ваш e-mail" type="email" name="newslatter-email" id="newslatter-email" required>
+          <button class="button-newsletter-button" type="submit">
+            <span class="button">Подписаться</span>
+          </button>
+        </form>
+      </section>
+      <section class="footer-contacts">
+        <h2 class="visually-hidden">Контакты</h2>
+        <ul class="footer-contacts-list">
+          <li class="footer-contacts-item">
+          <a class="button" href="https://vk.com/htmlacademy">
+            <span class="visually-hidden">ВКонтакте</span>
+          </a>
+          </li>
+          <li class="footer-contacts-item">
+            <a class="button" href="https://t.me/htmlacademy">
+              <span class="visually-hidden">Телеграм</span>
+            </a>            
+          </li>
+          <li class="footer-contacts-item">
+            <a class="button" href="https://www.youtube.com/user/htmlacademy">
+              <span class="visually-hidden">Ютуб</span>
+            </a>
+          </li>
+          <li class="footer-contacts-item">
+            <a class="footer-contacts-phone" href="tel:+78128121212">+7 (812) 812-12-12</a>
+          </li>
+          <li class="footer-contacts-item"> 
+            <a class="footer-contacts-link" href="https://htmlacademy.ru/">
+              <img class="footer-contacts-logo" src="#" alt="Логотип html academy">
+            </a>
+          </li>
+        </ul>
+      </section>
+    </footer>
+  </body>
+</html>
