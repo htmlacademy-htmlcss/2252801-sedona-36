@@ -111,15 +111,25 @@
        <select class="select-control" aria-label="Сортировка">
          <option value="cheap">Сначала дешевые</option>
        </select>
-       <a class="visually-hidden" href="#">
-        <span class="button-table"></span>
-       </a>
-       <a class="visually-hidden" href="#">
-        <span class="button-computer"></span>
-       </a>
-       <a class="visually-hidden" href="#">
-        <span class="button-list"></span>
-       </a>
+       <ul class="display-type-list">
+        <li class="display-type-item">
+         <a class="button-type-current" href="#">
+          <span class="button-table">Отображение таблицей</span>
+         </a>
+        </li>
+        <li class="display-type-item">
+         <a class="button-type" href="#">
+          <span class="button-computer">Отображение крупными значками</span>
+         </a>
+        </li>
+        <li class="display-type-item">
+         <a class="button-type" href="#">
+          <span class="button-list">Отображение списком</span>
+         </a>
+        </li>
+       </ul>
+      </section>
+      <section>
        <ul class="product-list">
         <li class="product-card">
           <a class="product-card-link" href="#">
@@ -195,6 +205,7 @@
           <b>Рейтинг: 5,0</b>
         </li>
        </ul>
+      </section>
        <ul class="pagination">
         <li class="pagination-item">
           <a class="pagination-link-current" href="#">1</a>
@@ -213,7 +224,6 @@
           <a class="pagination-link" href="#">10</a>
         </li>
        </ul>
-      </section>
     </main>
     <footer class="page-footer">
       <section class="newslatter">
